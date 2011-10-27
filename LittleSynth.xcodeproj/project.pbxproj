@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72A3C06E1459AB730012FC2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A3C06D1459AB730012FC2B /* UIKit.framework */; };
+		72A3C0701459AB730012FC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A3C06F1459AB730012FC2B /* Foundation.framework */; };
+		72A3C0721459AB730012FC2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A3C0711459AB730012FC2B /* CoreGraphics.framework */; };
+		72A3C0781459AB730012FC2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72A3C0761459AB730012FC2B /* InfoPlist.strings */; };
+		72A3C07A1459AB730012FC2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A3C0791459AB730012FC2B /* main.m */; };
+		72A3C07E1459AB730012FC2B /* LCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A3C07D1459AB730012FC2B /* LCSAppDelegate.m */; };
+		72A3C0811459AB730012FC2B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A3C07F1459AB730012FC2B /* MainStoryboard_iPhone.storyboard */; };
+		72A3C0841459AB730012FC2B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A3C0821459AB730012FC2B /* MainStoryboard_iPad.storyboard */; };
+		72A3C0871459AB730012FC2B /* LCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A3C0861459AB730012FC2B /* LCSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72A3C0691459AB730012FC2B /* LittleSynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A3C06D1459AB730012FC2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72A3C06F1459AB730012FC2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72A3C0711459AB730012FC2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72A3C0751459AB730012FC2B /* LittleSynth-Info.plist */ = {isa = PBXFileReference; path = "LittleSynth-Info.plist"; sourceTree = "<group>"; };
+		72A3C0771459AB730012FC2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72A3C0791459AB730012FC2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72A3C07B1459AB730012FC2B /* LittleSynth-Prefix.pch */ = {isa = PBXFileReference; path = "LittleSynth-Prefix.pch"; sourceTree = "<group>"; };
+		72A3C07C1459AB730012FC2B /* LCSAppDelegate.h */ = {isa = PBXFileReference; path = LCSAppDelegate.h; sourceTree = "<group>"; };
+		72A3C07D1459AB730012FC2B /* LCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSAppDelegate.m; sourceTree = "<group>"; };
+		72A3C0801459AB730012FC2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		72A3C0831459AB730012FC2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		72A3C0851459AB730012FC2B /* LCSViewController.h */ = {isa = PBXFileReference; path = LCSViewController.h; sourceTree = "<group>"; };
+		72A3C0861459AB730012FC2B /* LCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72A3C0661459AB730012FC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3C06E1459AB730012FC2B /* UIKit.framework in Frameworks */,
+				72A3C0701459AB730012FC2B /* Foundation.framework in Frameworks */,
+				72A3C0721459AB730012FC2B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72A3C05E1459AB730012FC2B = {
+			isa = PBXGroup;
+			children = (
+				72A3C0731459AB730012FC2B /* LittleSynth */,
+				72A3C06C1459AB730012FC2B /* Frameworks */,
+				72A3C06A1459AB730012FC2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72A3C06A1459AB730012FC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72A3C0691459AB730012FC2B /* LittleSynth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72A3C06C1459AB730012FC2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A3C06D1459AB730012FC2B /* UIKit.framework */,
+				72A3C06F1459AB730012FC2B /* Foundation.framework */,
+				72A3C0711459AB730012FC2B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72A3C0731459AB730012FC2B /* LittleSynth */ = {
+			isa = PBXGroup;
+			children = (
+				72A3C07C1459AB730012FC2B /* LCSAppDelegate.h */,
+				72A3C07D1459AB730012FC2B /* LCSAppDelegate.m */,
+				72A3C07F1459AB730012FC2B /* MainStoryboard_iPhone.storyboard */,
+				72A3C0821459AB730012FC2B /* MainStoryboard_iPad.storyboard */,
+				72A3C0851459AB730012FC2B /* LCSViewController.h */,
+				72A3C0861459AB730012FC2B /* LCSViewController.m */,
+				72A3C0741459AB730012FC2B /* Supporting Files */,
+			);
+			path = LittleSynth;
+			sourceTree = "<group>";
+		};
+		72A3C0741459AB730012FC2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A3C0751459AB730012FC2B /* LittleSynth-Info.plist */,
+				72A3C0761459AB730012FC2B /* InfoPlist.strings */,
+				72A3C0791459AB730012FC2B /* main.m */,
+				72A3C07B1459AB730012FC2B /* LittleSynth-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72A3C0681459AB730012FC2B /* LittleSynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A3C08A1459AB740012FC2B /* Build configuration list for PBXNativeTarget "LittleSynth" */;
+			buildPhases = (
+				72A3C0651459AB730012FC2B /* Sources */,
+				72A3C0661459AB730012FC2B /* Frameworks */,
+				72A3C0671459AB730012FC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleSynth;
+			productName = LittleSynth;
+			productReference = 72A3C0691459AB730012FC2B /* LittleSynth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72A3C0601459AB730012FC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LittleCodeShop;
+			};
+			buildConfigurationList = 72A3C0631459AB730012FC2B /* Build configuration list for PBXProject "LittleSynth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72A3C05E1459AB730012FC2B;
+			productRefGroup = 72A3C06A1459AB730012FC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72A3C0681459AB730012FC2B /* LittleSynth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72A3C0671459AB730012FC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3C0781459AB730012FC2B /* InfoPlist.strings in Resources */,
+				72A3C0811459AB730012FC2B /* MainStoryboard_iPhone.storyboard in Resources */,
+				72A3C0841459AB730012FC2B /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72A3C0651459AB730012FC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3C07A1459AB730012FC2B /* main.m in Sources */,
+				72A3C07E1459AB730012FC2B /* LCSAppDelegate.m in Sources */,
+				72A3C0871459AB730012FC2B /* LCSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72A3C0761459AB730012FC2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A3C0771459AB730012FC2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72A3C07F1459AB730012FC2B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A3C0801459AB730012FC2B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		72A3C0821459AB730012FC2B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72A3C0831459AB730012FC2B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72A3C0881459AB740012FC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72A3C0891459AB740012FC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72A3C08B1459AB740012FC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleSynth/LittleSynth-Prefix.pch";
+				INFOPLIST_FILE = "LittleSynth/LittleSynth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72A3C08C1459AB740012FC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleSynth/LittleSynth-Prefix.pch";
+				INFOPLIST_FILE = "LittleSynth/LittleSynth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72A3C0631459AB730012FC2B /* Build configuration list for PBXProject "LittleSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A3C0881459AB740012FC2B /* Debug */,
+				72A3C0891459AB740012FC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A3C08A1459AB740012FC2B /* Build configuration list for PBXNativeTarget "LittleSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A3C08B1459AB740012FC2B /* Debug */,
+				72A3C08C1459AB740012FC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72A3C0601459AB730012FC2B /* Project object */;
+}
