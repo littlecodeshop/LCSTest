@@ -24,7 +24,7 @@
 /***************************************************/
 
 #include "FM.h"
-#include "SKINI.msg"
+#include "SKINIMSG.h"
 
 FM :: FM( unsigned int operators )
   : nOperators_(operators)

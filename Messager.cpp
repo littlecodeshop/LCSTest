@@ -34,7 +34,7 @@
 
 #include "Messager.h"
 #include <iostream>
-#include "SKINI.msg"
+#include "SKINIMSG.h"
 
 static const int STK_FILE   = 0x1;
 static const int STK_MIDI   = 0x2;

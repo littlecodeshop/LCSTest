@@ -18,7 +18,7 @@
 /***************************************************/
 
 #include "Simple.h"
-#include "SKINI.msg"
+#include "SKINIMSG.h"
 
 Simple :: Simple()
 {

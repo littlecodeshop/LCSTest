@@ -1,5 +1,5 @@
 
-#include "SKINI.msg"
+#include "SKINIMSG.h"
 
 #define __SK_MaxMsgTypes_ 80
 
