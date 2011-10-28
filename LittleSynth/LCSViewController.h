@@ -7,7 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Stk.h"
+#import "Voicer.h"
+#import "Keyboard.h"
+#import "LCSVIOperation.h"
+#import "Messager.h"
+
+#define NUMBER_INSTRUMENT 1
 
 @interface LCSViewController : UIViewController
+{
+    Keyboard * keyboard;
+    TickData tdata;
+    NSOperationQueue *queue;
+    LCSVIOperation * synthOperation;
+}
+
+@property (nonatomic,retain) Keyboard * keyboard;
+@property (nonatomic,retain) NSOperationQueue * queue;
+@property (nonatomic,retain) LCSVIOperation * synthOperation;
+
+
 
 @end
