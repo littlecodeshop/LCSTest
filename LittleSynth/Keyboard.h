@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @protocol KeyboardDelegate <NSObject>
--(void)play;
--(void)up;
+-(void)noteOn:(float)f;
+-(void)noteOff:(float)f;
 @end 
 
 

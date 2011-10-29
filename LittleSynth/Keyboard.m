@@ -14,8 +14,13 @@
 
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    NSLog(@"touches begins !!");
-    [keyboardDelegate play];
+    
+    NSSet * alltouches = [event allTouches];
+    UITouch *touch =[[alltouches allObjects] objectAtIndex:0];
+    CGPoint p = [touch locationInView:self];
+    
+     NSLog(@"you moooooved !! %f",64.0f+p.x);
+    [keyboardDelegate noteOn:64.0+p.x];
     
 }
 
@@ -25,7 +30,7 @@
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     NSLog(@"the end !!");
-    [keyboardDelegate up];
+   // [keyboardDelegate noteOff];
 }
 
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
