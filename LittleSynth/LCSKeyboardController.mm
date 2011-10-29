@@ -51,7 +51,7 @@
 }
 
 -(void)noteOff:(float)f{
-    tdata.voicer->noteOff(f,64.0f,0);
+    tdata.voicer->noteOff(f,10.0f,0);
 }
 
 #pragma mark - View lifecycle

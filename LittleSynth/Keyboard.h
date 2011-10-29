@@ -18,6 +18,7 @@
 {
 
     __weak IBOutlet id<KeyboardDelegate> keyboardDelegate;  
+    CGRect touchesPiano[14];
 
 }
 
