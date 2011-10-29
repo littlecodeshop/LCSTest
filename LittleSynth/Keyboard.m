@@ -110,7 +110,6 @@ on gere comme ca :
     //if we move from 1 touch to another we need to stop the first and start the new
     NSEnumerator *e = [touches objectEnumerator];
     UITouch * oneTouch;
-    int previous,current = 0;
 
     while ( (oneTouch = [e nextObject]) ) {
         //il faut regarder dans quelle case est cette touche
