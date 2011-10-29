@@ -13,9 +13,9 @@
 #import "LCSVIOperation.h"
 #import "Messager.h"
 
-#define NUMBER_INSTRUMENT 1
+#define POLYPHONIE 10
 
-@interface LCSViewController : UIViewController
+@interface LCSKeyboardController : UIViewController
 {
     Keyboard * keyboard;
     TickData tdata;

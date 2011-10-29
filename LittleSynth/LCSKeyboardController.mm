@@ -6,9 +6,9 @@
 //  Copyright (c) 2011 LittleCodeShop. All rights reserved.
 //
 
-#import "LCSViewController.h"
+#import "LCSKeyboardController.h"
 
-@implementation LCSViewController
+@implementation LCSKeyboardController
 
 @synthesize keyboard, queue, synthOperation;
 
@@ -27,10 +27,10 @@
     Stk::setRawwavePath([dir UTF8String]  );
     //Stk::showWarnings( true );//TODO: remove that in real life
     
-    tdata.voix = (Instrmnt**)malloc(NUMBER_INSTRUMENT*sizeof(Instrmnt));
+    tdata.voix = (Instrmnt**)malloc(POLYPHONIE*sizeof(Instrmnt));
     
     tdata.voicer = new Voicer();
-    for(int i=0;i<NUMBER_INSTRUMENT;i++){
+    for(int i=0;i<POLYPHONIE;i++){
         tdata.voix[i]=(Instrmnt*)new Plucked(64.0);  
         tdata.voicer->addInstrument(tdata.voix[i],i); 
     }
@@ -46,12 +46,12 @@
 }
 
 
--(void)play{
-	tdata.voicer->noteOn(64.0f, 64.0f, 0);
+-(void)noteOn:(float)f{
+	tdata.voicer->noteOn(f, 64.0f, 0);
 }
 
--(void)up{
-    tdata.voicer->noteOff(64.0f,64.0f,0);
+-(void)noteOff:(float)f{
+    tdata.voicer->noteOff(f,64.0f,0);
 }
 
 #pragma mark - View lifecycle
